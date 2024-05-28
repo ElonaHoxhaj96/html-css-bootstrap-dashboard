@@ -5,6 +5,15 @@
     width: 100%;
     margin: 0;
 }
+/*DEBUG*/
+[class*="col-"] {
+    min-height: 50px;
+    background-color: violet;
+    color: white;
+    border: solid 0.1rem white;
+
+}
+
 /*SETTING NAV*/
 
 #right-menu{
@@ -33,7 +42,7 @@ nav a{
     padding: 0;
 }
 .main-content section{
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .parte-alta{
@@ -46,3 +55,8 @@ nav a{
 #new-student{
     text-align: end;
 }
+.tabelle{
+    display: flex;
+    gap: 0.5rem;
+}
+
