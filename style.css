@@ -1,3 +1,21 @@
 *{
     font-family:"Roboto";
 }
+.row{
+    width: 100%;
+}
+/*SETTING NAV*/
+
+#right-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #777;
+}
+.orange{
+    color: orange;
+}
