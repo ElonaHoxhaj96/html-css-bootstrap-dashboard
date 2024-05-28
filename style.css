@@ -3,6 +3,7 @@
 }
 .row{
     width: 100%;
+    margin: 0;
 }
 /*SETTING NAV*/
 
@@ -18,4 +19,30 @@ nav a{
 }
 .orange{
     color: orange;
+}
+/*MAIN*/
+
+#menu-left{
+    background-color: #0e253b;
+    min-height: 100vh;
+    background-image: url(img/sidebar-bg.png);
+    padding-right: 0;
+}
+/*MAIN*/
+.main-content{
+    padding: 0;
+}
+.main-content section{
+    padding: 1rem;
+}
+
+.parte-alta{
+    display: flex;
+    justify-content: space-between;
+    /*DEBUG*/
+    min-height: 100px;
+}
+
+#new-student{
+    text-align: end;
 }
