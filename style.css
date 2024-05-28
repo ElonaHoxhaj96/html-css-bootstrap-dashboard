@@ -29,20 +29,26 @@ nav a{
 .orange{
     color: orange;
 }
-/*MAIN*/
 
-#menu-left{
-    background-color: #0e253b;
-    min-height: 100vh;
-    background-image: url(img/sidebar-bg.png);
-    padding-right: 0;
-}
 /*MAIN*/
 .main-content{
     padding: 0;
 }
 .main-content section{
     padding: 0.5rem;
+}
+/*menu left*/
+
+#menu-left{
+    background-color: #0e253b;
+    min-height: 100vh;
+    background-image: url(img/sidebar-bg.png);
+    padding-right: 0;
+    position: relative;
+}
+.absolut{
+    position: absolute;
+    bottom: 0;
 }
 
 .parte-alta{
