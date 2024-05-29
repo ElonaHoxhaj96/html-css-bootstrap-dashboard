@@ -7,11 +7,7 @@
 }
 /*DEBUG*/
 [class*="col-"] {
-    min-height: 50px;
-    background-color: violet;
-    color: white;
     border: solid 0.1rem white;
-
 }
 
 /*SETTING NAV*/
@@ -43,14 +39,26 @@ nav a{
     background-color: #0e253b;
     min-height: 100vh;
     background-image: url(img/sidebar-bg.png);
-    padding-right: 0;
+    padding: 0;
     position: relative;
 }
-.absolut{
+.admin{
     position: absolute;
     bottom: 0;
+    left: 0;
 }
-
+#menu-left a{
+    text-align: start;
+    text-decoration: none;
+    color: white;
+}
+.icone-menu-left{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+/*Content of the page */
 .parte-alta{
     display: flex;
     justify-content: space-between;
