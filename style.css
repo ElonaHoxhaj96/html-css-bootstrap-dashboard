@@ -95,3 +95,7 @@ table img{
 tr > th > div{
     display: inline-block;
 }
+
+.icona-chevron{
+    width: auto;
+}
