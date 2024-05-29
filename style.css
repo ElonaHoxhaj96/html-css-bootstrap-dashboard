@@ -102,3 +102,11 @@ tr > th > div{
 .fa-plus{
     font-size: 1.5rem;
 }
+
+.offcanvas.offcanvas-end{
+    min-width: 700px;
+
+}
+.input-group-text{
+    justify-content: center;
+}
