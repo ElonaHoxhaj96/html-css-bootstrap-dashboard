@@ -5,6 +5,9 @@
     width: 100%;
     margin: 0;
 }
+img{
+    width: 100%;
+}
 /*DEBUG*/
 [class*="col-"] {
     border: solid 0.1rem white;
@@ -85,7 +88,7 @@ nav a{
     width: 60%;
 }
 
-img{
+table img{
     width: 70%;
 }
 
