@@ -95,3 +95,10 @@ tr > th > div{
 .icona-chevron{
     width: auto;
 }
+
+.btn-primary{
+    --bs-btn-border-color: white;
+}
+.fa-plus{
+    font-size: 1.5rem;
+}
