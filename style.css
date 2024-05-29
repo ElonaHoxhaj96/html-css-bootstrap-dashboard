@@ -8,11 +8,6 @@
 img{
     width: 100%;
 }
-/*DEBUG*/
-[class*="col-"] {
-    border: solid 0.1rem white;
-}
-
 /*SETTING NAV*/
 
 #right-menu{
@@ -40,7 +35,7 @@ nav a{
 
 #menu-left{
     background-color: #0e253b;
-    min-height: 100vh;
+    min-height: 100%;
     background-image: url(img/sidebar-bg.png);
     padding: 0;
     position: relative;
