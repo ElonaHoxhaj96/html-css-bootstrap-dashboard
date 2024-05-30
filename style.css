@@ -50,6 +50,9 @@ nav a{
     text-decoration: none;
     color: white;
 }
+.end{
+    justify-content: center;
+}
 .icone-menu-left{
     color: white;
     display: flex;
@@ -112,7 +115,4 @@ tr > th > div{
 }
 .tx-start{
     text-align: start;
-}
-.end{
-    justify-content: center;
 }
