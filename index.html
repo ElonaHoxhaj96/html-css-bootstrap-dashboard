@@ -120,15 +120,17 @@
                             <span>Nuovo studente</span>
                             <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><i class="fa-solid fa-plus"></i></button>
                             <!--NEW STUDENT OFFCAVAS-->
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel">
-                              <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                              </div>
-                              <div class="offcanvas-body">
+                            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body tx-start">
+
                                 <div class="row">
                                     <div class="col-12"><h4>Inserisci studente</h4></div>
                                 </div>
+                                <!--Name and Surname-->
                                 <div class="row">
                                     <div class="row">
                                         <div class="col-6"><span>Nome</span></div>
@@ -144,6 +146,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--Email and password-->
                                 <div class="row">
                                     <div class="row">
                                         <div class="col-6"><span>Email</span></div>
@@ -158,8 +161,9 @@
                                             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                         </div>
                                     </div>
-                              </div>
-                              <div class="row">
+                                </div>
+                                <!--Email and password-->
+                                <div class="row">
                                     <div class="row">
                                         <div class="col-6"><span>indirizzo <br>Email</span></div>
                                         <div class="col-6"><span>Password</span></div>
@@ -174,7 +178,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <di class="row">
+                                <!--Address-->
+                                <div class="row">
                                     <div class="row">
                                         <div class="col-12"><span> Indirizzo</span></div>
                                     </div>
@@ -183,7 +188,69 @@
                                             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                                         </div>
                                     </div>
-                                </di>
+                                </div>
+                                <!--City and country-->
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-6"><span> Città</span></div>
+                                        <div class="col-4"><span> Stato</span></div>
+                                        <div class="col-2"><span> CAP</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                        </div> 
+                                        <div class="col-4">
+                                            <div class="input-group mb-3">
+                                                <select class="form-select" id="inputGroupSelect02">
+                                                  <option selected>Scegli...</option>
+                                                  <option value="1">One</option>
+                                                  <option value="2">Two</option>
+                                                  <option value="3">Three</option>
+                                                  <option value="4">Four</option>
+                                                  <option value="5">Five</option>
+                                                  <option value="6">Six</option>
+                                                </select>
+                                              </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Foto-->
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="col-12"><span> Foto</span></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                              </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--check-->
+                                <div class="row">
+                                    <div class="col-12"><br></div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Seleziona per andare avanti 
+                                            </label>
+                                          </div>
+                                    </div>
+                                </div>
+                                <!--Save ore delete-->
+                                <div class="row">
+                                    <div class="col-12"><br></div>
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-primary">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>

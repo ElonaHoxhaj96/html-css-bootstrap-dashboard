@@ -110,3 +110,6 @@ tr > th > div{
 .input-group-text{
     justify-content: center;
 }
+.tx-start{
+    text-align: start;
+}
