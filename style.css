@@ -113,3 +113,6 @@ tr > th > div{
 .tx-start{
     text-align: start;
 }
+.end{
+    justify-content: center;
+}
