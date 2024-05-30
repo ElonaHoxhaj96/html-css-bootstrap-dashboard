@@ -68,7 +68,9 @@ nav a{
 }
 
 #new-student{
-    text-align: end;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .tabelle{
