@@ -9,16 +9,19 @@ img{
     width: 100%;
 }
 /*SETTING NAV*/
-
+.space{
+    padding: 0;
+}
 #right-menu{
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: end;
 }
 nav a{
     text-decoration: none;
     color: #777;
+    margin: 0 1rem;
 }
 .orange{
     color: orange;
